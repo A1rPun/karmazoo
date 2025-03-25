@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Blob",
+    "price": "Free",
+    "star": "None",
+    "text": "I'm just a Blob."
+  },
+  {
+    "name": "Ghost",
+    "price": "Not purchasable",
+    "star": "None",
+    "text": "Your Halo popped and you have died. You are now a Ghost and you can help your teammates reach the Exit."
+  },
+  {
+    "name": "Ro-bot",
+    "price": "Not purchasable",
+    "star": "None",
+    "text": "[None]"
+  },
+  {
+    "name": "Alien",
+    "price": "100000",
+    "star": "Panda",
+    "text": "Locked: I can carry a teammate around on my ship.\n\nUnlocked: HOLD (button prompt) and RELEASE to carry a teammate in my ship."
+  },
+  {
+    "name": "Alpaca",
+    "price": "10000",
+    "star": "Panda",
+    "text": "Locked: I spit on others to make them sticky.\n\nUnlocked: PUSH (button prompt) to spit on other to make them sticky."
+  },
+  {
+    "name": "Dog",
+    "price": "5000",
+    "star": "Panda",
+    "text": "Locked: I bark and send an echo.\n\nUnlocked: PUSH (button prompt) to woof and echo."
+  },
+  {
+    "name": "Elephant",
+    "price": "2000",
+    "star": "Panda",
+    "text": "Locked: I charge up ahead to smash glass walls.\n\nUnlocked: HOLD (button prompt) to charge up and RELEASE to smash walls ahead."
+  },
+  {
+    "name": "Hedgehog",
+    "price": "2000",
+    "star": "Panda",
+    "text": "Locked: I make my surroundings sticky.\n\nUnlocked: HOLD (button prompt) to make your surroundings sticky."
+  },
+  {
+    "name": "Mouse",
+    "price": "3000",
+    "star": "Panda",
+    "text": "Locked: I run the mouse wheels and I'm a lightweight.\n\nUnlocked: HOLD (button prompt) to run the wheels. I'm a lightweight"
+  },
+  {
+    "name": "Music Box",
+    "price": "1000",
+    "star": "Panda",
+    "text": "Locked: I sing my lungs out in all directions.\n\nUnlocked: HOLD (button prompt) to sing my lungs out in all directions."
+  },
+  {
+    "name": "Owl",
+    "price": "250",
+    "star": "Panda",
+    "text": "Locked: I glide with style.\n\nUnlocked: HOLD (button prompt) to glide."
+  },
+  {
+    "name": "Pig",
+    "price": "250",
+    "star": "Panda",
+    "text": "Locked: I attract Fruit like a magnet.\n\nUnlocked: I attract Fruit like a magnet."
+  },
+  {
+    "name": "Turtle",
+    "price": "1500",
+    "star": "Panda",
+    "text": "Locked: I shell in to protect myself and others, and to reduce Halo loss\n\nUnlocked: HOLD (button prompt) to shell up and be safe from dangers"
+  },
+  {
+    "name": "Umbrella",
+    "price": "2500",
+    "star": "Panda",
+    "text": "Locked:I can unfold to protect others from dangers.\n\nUnlocked: HOLD (button prompt) to deploy and protect your mates from dangers."
+  },
+  {
+    "name": "Aquarium",
+    "price": "2500",
+    "star": "Peacock",
+    "text": "Locked: I can welcome a teammate on my bowl.\n\nUnlocked: HOLD (button prompt) and release to carry a teammate around on my bowl."
+  },
+  {
+    "name": "Armadillo",
+    "price": "250",
+    "star": "Peacock",
+    "text": "Locked: I am immune to anything pointy when I move\n\nUnlocked: I am immune to anything pointy when I move."
+  },
+  {
+    "name": "Blowfish",
+    "price": "3000",
+    "star": "Peacock",
+    "text": "Locked: I blow to smash glass walls.\n\nUnlocked: HOLD (button prompt) to blow away. Also destroys tombstones."
+  },
+  {
+    "name": "Bulldog",
+    "price": "1000",
+    "star": "Peacock",
+    "text": "Locked: I can sing in all directions at once.\n\nUnlocked: HOLD (button prompt) to bark and Sing in all directions."
+  },
+  {
+    "name": "Camel",
+    "price": "5000",
+    "star": "Peacock",
+    "text": "Locked: I carry up to 5 items.\n\nUnlocked: I carry up to 5 items at once."
+  },
+  {
+    "name": "Compass",
+    "price": "3000",
+    "star": "Peacock",
+    "text": "Locked: My needle points to the closest remaining Fruit.\n\nUnlocked: HOLD (button prompt) to point at the closest remaining fruit."
+  },
+  {
+    "name": "Frog",
+    "price": "250",
+    "star": "Peacock",
+    "text": "Locked: I jump three times in a row.\n\nUnlocked: PUSH (button prompt) to jump three times in a row."
+  },
+  {
+    "name": "Lion",
+    "price": "1000",
+    "star": "Peacock",
+    "text": "Locked: My tombstone gives a singing boost. I also sing in all directions.\n\nUnlocked: HOLD (button prompt) to sing in all direction. My tombstone gives a singing boost."
+  },
+  {
+    "name": "Spring",
+    "price": "5000",
+    "star": "Peacock",
+    "text": "Locked: I can charge up and throw others in the air.\n\nUnlocked: HOLD (button prompt) to charge and RELEASE to propel others up in the air."
+  },
+  {
+    "name": "Teapot",
+    "price": "1500",
+    "star": "Peacock",
+    "text": "Locked: I shine a steamy light and send light drops to reveal the world.\n\nUnlocked: HOLD (button prompt) to steam out and spit light drops in any direction."
+  },
+  {
+    "name": "Watering Can",
+    "price": "2500",
+    "star": "Peacock",
+    "text": "Locked: I water tombstones and grow all the flowers.\n\nUnlocked: HOLD (button prompt) to water tombstones and flowers."
+  },
+  {
+    "name": "Guinea Pig",
+    "price": "5000",
+    "star": "Peacock",
+    "text": "Locked: I run the guinea pig-wheels. Yes, that's their real name. .\n\nUnlocked: HOLD (button prompt) to run the wheels."
+  },
+  {
+    "name": "Anchor",
+    "price": "5000",
+    "star": "Snail",
+    "text": "Locked: I smash the ground with my behind to destroy glass walls.\n\nUnlocked: PUSH (button prompt) in mid-air to smash the ground."
+  },
+  {
+    "name": "Duck",
+    "price": "10000",
+    "star": "Snail",
+    "text": "Locked: I quack and send an echo.\n\nUnlocked: PUSH (button prompt) to quack and echo"
+  },
+  {
+    "name": "Bison",
+    "price": "5000",
+    "star": "Snail",
+    "text": "Locked: I charge up ahead and destroy glass walls.\n\nUnlocked: HOLD (button prompt) to charge up and RELEASE to smash walls ahead."
+  },
+  {
+    "name": "Cactus",
+    "price": "7500",
+    "star": "Snail",
+    "text": "Locked: I make my surroundings sticky.\n\n Unlocked: HOLD (button prompt) to make my surroundings sticky."
+  },
+  {
+    "name": "Cat",
+    "price": "25000",
+    "star": "Snail",
+    "text": "Locked: Like all cats, I can dash.\n\nUnlocked: PUSH (button prompt) to dash ahead like there's no tomorrow."
+  },
+  {
+    "name": "Lantern",
+    "price": "1500",
+    "star": "Snail",
+    "text": "Locked: I blast my beam of light.\n\nUnlocked: HOLD (button prompt) to enlighten like no other."
+  },
+  {
+    "name": "Pepper",
+    "price": "5000",
+    "star": "Snail",
+    "text": "Locked: I spice up fire-pits.\n\nUnlocked: PUSH (button prompt) to ignite fire-pits."
+  },
+  {
+    "name": "Raptor",
+    "price": "25000",
+    "star": "Snail",
+    "text": "Locked: I run like the wind.\n\nUnlocked: HOLD (button prompt) to Run like the wind."
+  },
+  {
+    "name": "Seashell",
+    "price": "5000",
+    "star": "Snail",
+    "text": "Locked: I stick to walls and deploy my shell for others to climb on.\n\nUnlocked: HOLD (button prompt) to stick on walls or objects & create a platform"
+  },
+  {
+    "name": "Spider",
+    "price": "2500",
+    "star": "Snail",
+    "text": "Locked: I pull a string from a Web for others to climb on, and I'm a lightweight!\n\nUnlocked: HOLD (button prompt) to pull down a string from a Web."
+  },
+  {
+    "name": "Squirrel",
+    "price": "5000",
+    "star": "Snail",
+    "text": "Locked: I run squirrel-wheels.\n\nUnlocked: HOLD (button prompt) to run the wheels."
+  },
+  {
+    "name": "Whale",
+    "price": "10000",
+    "star": "Snail",
+    "text": "Locked: I can blow water in the air that others can climb on.\n\nUnlocked: HOLD (button prompt) to spit water upwards that teammates can climb on"
+  },
+  {
+    "name": "Bell",
+    "price": "3000",
+    "star": "Tiger",
+    "text": "Locked: I ring to destroy glass walls.\n\nUnlocked: HOLD (button prompt) to ding dong. Destroys walls and tombstones alike!"
+  },
+  {
+    "name": "Clover",
+    "price": "77777",
+    "star": "Tiger",
+    "text": "Locked: My tombstone is a gift machine and I enhance Bonuses.\n\nUnlocked: Stand on my tombstone to play a game."
+  },
+  {
+    "name": "Bird",
+    "price": "1000",
+    "star": "Tiger",
+    "text": "Locked: I flap my wings a little in mid-air and I'm a lightweight.\n\nUnlocked: HOLD (button prompt) to glide."
+  },
+  {
+    "name": "Firtree",
+    "price": "10000",
+    "star": "Tiger",
+    "text": "Locked: I make my surroundings sticky.\n\nUnlocked: HOLD (button prompt) to make your surroundings sticky."
+  },
+  {
+    "name": "Flame",
+    "price": "3000",
+    "star": "Tiger",
+    "text": "Locked: I ignite fire-pits.\n\nUnlocked: PUSH (button prompt) to ignite a fire-pit."
+  },
+  {
+    "name": "Flower Pot",
+    "price": "2500",
+    "star": "Tiger",
+    "text": "Locked: I grow my plant to help others get up.\n\nUnlocked: HOLD (button prompt) to grow my flower and help others."
+  },
+  {
+    "name": "Koala",
+    "price": "250",
+    "star": "Tiger",
+    "text": "Locked: I climb up and down sticky walls and even sing while stuck.\n\nUnlocked: I walk up or down walls and can sing while hanging"
+  },
+  {
+    "name": "Lamp",
+    "price": "5000",
+    "star": "Tiger",
+    "text": "Locked: I shine like no other and reveal secrets.\n\nUnlocked: HOLD (button prompt) to shine like no other."
+  },
+  {
+    "name": "Pear",
+    "price": "250",
+    "star": "Tiger",
+    "text": "Locked: I can hover still in mid-air.\n\nUnlocked: HOLD (button prompt) to hover still in mid-air."
+  },
+  {
+    "name": "Seal",
+    "price": "1000",
+    "star": "Tiger",
+    "text": "Locked: I smash the ground with my tail to destroy glass walls.\n\nUnlocked: PUSH (button prompt) in mid-air to smash the ground."
+  },
+  {
+    "name": "Spinning Top",
+    "price": "1500",
+    "star": "Tiger",
+    "text": "Locked: My tombstone gives a speed boost.\n\nUnlocked: My tombstones speed you up when walked on."
+  },
+  {
+    "name": "Wolf",
+    "price": "1000",
+    "star": "Tiger",
+    "text": "Locked: When I howl, teammates around me join my wolf pack and sing farther.\n\nUnlocked: HOLD (button prompt) to howl in and transform my nearby mates into howlers."
+  }
+]
