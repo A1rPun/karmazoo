@@ -3,10 +3,10 @@ import { RouterOutlet } from '@angular/router';
 import { ItemComponent } from "./item/item.component";
 import { IZoo } from './zoo.interface';
 
-import forms from './../forms.json';
-import items from './../items.json';
-import other from './../other.json';
-import tree from './../tree.json';
+import forms from './../assets/forms.json';
+import items from './../assets/items.json';
+import other from './../assets/other.json';
+import tree from './../assets/tree.json';
 
 // function lzw_encode(s: string) {
 //   var dict = new Map();
