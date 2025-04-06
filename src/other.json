@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Library door",
+    "price": 1000
+  },
+  {
+    "name": "Sherpa door",
+    "price": 1000
+  },
+  {
+    "name": "Anchor door",
+    "price": 1000
+  },
+  {
+    "name": "Bison door",
+    "price": 1000
+  },
+  {
+    "name": "Pepper door",
+    "price": 1000
+  },
+  {
+    "name": "Squirrel & Guinea Pig door",
+    "price": 1000
+  },
+  {
+    "name": "Book",
+    "price": 100000
+  },
+  {
+    "name": "Books",
+    "price": 39761
+  }
+]

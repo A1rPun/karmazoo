@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Karma Kiss",
+    "price": 8,
+    "text": "Locked: Unlock this magical bow to send extra Karma Hearts to your mates. After use, the bow needs some time to recharge.\\n\\nUnlocked: HOLD (button prompt) and aim somewhere until the shot is ready and release to send some looooove in the air for others to catch."
+  },
+  {
+    "name": "Dance Move",
+    "price": 50,
+    "text": "Locked: Unlock a dance move for everybody.\\n\\nUnlocked: HOLD (button prompt) to deploy your dance move and make your teammates smile."
+  },
+  {
+    "name": "Super Move",
+    "price": 100,
+    "text": "Locked: Unlock the super dance move for everyone.\\n\\nUnlocked: HOLD (button prompt) to deploy your super dance move and make your teammates jealous."
+  },
+  {
+    "name": "Emote Wheel",
+    "price": 100,
+    "text": "Locked: Display a variety of Emotes above your head to communicate with others.\\n\\nUnlocked: HOLD (button prompt) to display the wheel, pick an Emote by pointing at it, then release to communicate."
+  },
+  {
+    "name": "Survival Time I",
+    "price": 100,
+    "text": "Locked: Add 2 extra seconds to the time before you vanish while alone.\\n\\nUnlocked: 2 bonus seconds were added to your survival time."
+  },
+  {
+    "name": "Survival Time II",
+    "price": 5000,
+    "text": "Locked: Add 2 extra seconds before vanishing when disconnected from others.\\n\\nUnlocked: 2 bonus seconds were added to your survival time."
+  },
+  {
+    "secret": true,
+    "name": "Emote Pack I",
+    "price": 1000,
+    "text": "Additional ways to communicate with your team."
+  },
+  {
+    "secret": true,
+    "name": "Emote Pack II",
+    "price": 2500,
+    "text": "Additional ways to communicate with your team."
+  },
+  {
+    "secret": true,
+    "name": "Survival Time",
+    "price": 50000,
+    "text": "Locked: Add 1 extra second to the time before you fade away.\\n\\nUnlocked: 1 extra second was added to your survival time."
+  },
+  {
+    "secret": true,
+    "name": "Electric Ghost",
+    "price": 2500,
+    "text": "Locked: You can carry electricity as a ghost and help the team as if you were embodied.\\n\\nUnlocked: You carry electricity also when in Ghost form."
+  }
+]
