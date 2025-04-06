@@ -1,0 +1,103 @@
+.item {
+  --background: darkgoldenrod;
+  --color: #eee;
+
+  display: flex;
+  flex-direction: column;
+  background: #222;
+  border: 2px solid var(--background);
+  border-radius: 16px;
+  color: var(--color);
+  margin: 0;
+  user-select: none;
+  min-width: 212px;
+
+  &:has(.state:checked) {
+    background: darkgoldenrod;
+    border-color: darkgoldenrod;
+  }
+
+  &:has(.mission:nth-child(1) .complete:checked):has(.mission:nth-child(2) .complete:checked) {
+    background: var(--background);
+    color: #000;
+    border-color: var(--background);
+
+    .missions {
+      display: none;
+    }
+  }
+
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+  }
+
+
+  .done {
+    background: var(--background);
+    color: var(--color);
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .size {
+    border: 1px solid var(--color);
+  }
+
+  .size-1 {
+    width: 8px;
+    height: 8px;
+  }
+
+  .size-4 {
+    width: 16px;
+    height: 16px;
+  }
+
+  .size-9 {
+    width: 32px;
+    height: 32px;
+  }
+
+  .missions {
+    display: flex;
+  }
+
+  .mission {
+    background: #222;
+    border: 1px solid darkgoldenrod;
+    border-radius: 16px;
+    color: #eee;
+
+    &:has(.complete:checked) {
+      background: var(--background);
+      border: 1px solid var(--background);
+      color: #000;
+    }
+  }
+
+  label {
+    cursor: pointer;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .item {
+    background: #ddd;
+    --color: #222;
+
+    .mission {
+      background: #ddd;
+      color: #222;
+    }
+  }
+}
