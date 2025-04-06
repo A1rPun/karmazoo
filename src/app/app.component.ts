@@ -8,56 +8,6 @@ import items from './../assets/items.json';
 import other from './../assets/other.json';
 import tree from './../assets/tree.json';
 
-// function lzw_encode(s: string) {
-//   var dict = new Map();
-//   var data = (s + "").split("");
-//   var out = [];
-//   var currChar;
-//   var phrase = data[0];
-//   var code = 256;
-//   for (var i=1; i<data.length; i++) {
-//       currChar=data[i];
-//       if (dict.has(phrase + currChar)) {
-//           phrase += currChar;
-//       }
-//       else {
-//           out.push(phrase.length > 1 ? dict.get(phrase) : phrase.charCodeAt(0));
-//           dict.set(phrase + currChar, code);
-//           code++;
-//           phrase=currChar;
-//       }
-//   }
-//   out.push(phrase.length > 1 ? dict.get(phrase) : phrase.charCodeAt(0));
-//   for (var i=0; i<out.length; i++) {
-//       out[i] = String.fromCharCode(out[i]);
-//   }
-//   return out.join("");
-// }
-// function lzw_decode(s: string) {
-//   var dict = new Map();
-//   var data = (s + "").split("");
-//   var currChar = data[0];
-//   var oldPhrase = currChar;
-//   var out = [currChar];
-//   var code = 256;
-//   var phrase;
-//   for (var i=1; i<data.length; i++) {
-//       var currCode = data[i].charCodeAt(0);
-//       if (currCode < 256) {
-//           phrase = data[i];
-//       }
-//       else {
-//          phrase = dict.has(currCode) ? dict.get(currCode) : (oldPhrase + currChar);
-//       }
-//       out.push(phrase);
-//       currChar = phrase.charAt(0);
-//       dict.set(code, oldPhrase + currChar);
-//       code++;
-//       oldPhrase = phrase;
-//   }
-//   return out.join("");
-// }
-
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet, ItemComponent],
@@ -170,17 +120,6 @@ export class AppComponent {
       tree: this.tree().map(x => x.state ?? 0),
     };
     localStorage.setItem('karmazoo.save', JSON.stringify(state));
-
-    // const abc = [
-    //   ...this.forms().map(x => x.state ?? 0),
-    //   ...this.items().map(x => x.state ?? 0),
-    //   ...this.other().map(x => x.state ?? 0),
-    //   ...this.tree().map(x => x.state ?? 0),
-    // ];
-    // const encoded = lzw_encode(abc.join(','));
-    // const url = new URL(location.toString());
-    // url.searchParams.set('save', encoded);
-    // history.pushState({}, '', url);
   }
 
   private loadState(): void {
