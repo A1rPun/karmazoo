@@ -1,0 +1,102 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.section {
+  display: flex;
+}
+
+.sherpa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.progress {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.unlock {
+  background: black;
+  border: 2px solid white;
+  border-radius: 100%;
+  width: 32px;
+  height: 32px;
+
+  &:hover {
+    background: #333;
+  }
+}
+
+.show {
+  background: #222;
+  border: 2px solid white;
+  color: #eee;
+  height: 64px;
+  border-radius: 64px;
+  cursor: pointer;
+  margin-top: 24px;
+
+  &:hover {
+    background: #333;
+  }
+}
+
+progress {
+  background: #222;
+  border: 2px solid darkgoldenrod;
+  height: 32px;
+  border-radius: 16px;
+
+  &::-webkit-progress-bar {
+    background: darkgoldenrod;
+  }
+  &::-webkit-progress-value {
+    background: darkgoldenrod;
+  }
+  &::-moz-progress-bar {
+    background: darkgoldenrod;
+  }
+}
+
+.Panda ::ng-deep zoo-item .item {
+  --background: #17eefe;
+}
+
+.Peacock ::ng-deep zoo-item .item {
+  --background: #f21068;
+}
+
+.Tiger ::ng-deep zoo-item .item {
+  --background: #b314eb;
+}
+
+.Snail ::ng-deep zoo-item .item {
+  --background: #fad42e;
+}
+
+
+@media (prefers-color-scheme: light) {
+  progress {
+    background: #ddd;
+  }
+
+  .show {
+    background: #ddd;
+    color: #222;
+  }
+}
