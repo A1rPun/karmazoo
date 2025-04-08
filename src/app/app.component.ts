@@ -7,10 +7,11 @@ import forms from './../assets/forms.json';
 import items from './../assets/items.json';
 import other from './../assets/other.json';
 import tree from './../assets/tree.json';
+import { ToggleComponent } from "./toggle/toggle.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ItemComponent],
+  imports: [RouterOutlet, ItemComponent, ToggleComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
@@ -71,17 +72,17 @@ export class AppComponent {
     this.loadState();
   }
 
-  unlockSherpa(index: number) {
+  unlockSherpa(index: number, unlock: boolean) {
+    const state = unlock ? 7 : 0;
     const forms = this.sherpas[index].forms;
-    forms.forEach(form => {
-      form.state = 7;
-    });
+    forms.forEach(form => form.state = state);
     this.forms.update((f) => [...f]);
     this.saveState();
   }
 
-  unlockItems(sig: WritableSignal<IZoo[]>) {
-    sig().forEach(item => item.state = 1);
+  unlockItems(sig: WritableSignal<IZoo[]>, unlock: boolean) {
+    const state = unlock ? 1 : 0;
+    sig().forEach(item => item.state = state);
     sig.update((f) => [...f]);
     this.saveState();
   }

@@ -22,7 +22,7 @@
       <div [class]="['sherpa', sherpa.name]">
         <h2>{{ sherpa.name }}</h2>
         @if (spoilers) {
-          <button type="button" class="unlock" title="Unlock all forms" (click)="unlockSherpa($index)">🤍</button>
+          <zoo-toggle title="Unlock all forms" (changed)="unlockSherpa($index, $event)" />
         }
         <div class="items">
           @for (form of sherpa.forms; track form.name) {
@@ -39,7 +39,7 @@
   </div>
   <h1>Upgrades</h1>
   @if (spoilers) {
-    <button type="button" class="unlock" title="Unlock all upgrades" (click)="unlockItems(items)">🤍</button>
+    <zoo-toggle title="Unlock all upgrades" (changed)="unlockItems(items, $event)" />
   }
   <div class="section">
     <div class="items">
@@ -55,7 +55,7 @@
   </div>
   <h1>Doors & Books</h1>
   @if (spoilers) {
-    <button type="button" class="unlock" title="Unlock all other items" (click)="unlockItems(other)">🤍</button>
+    <zoo-toggle title="Unlock all doors & books" (changed)="unlockItems(other, $event)" />
   }
   <div class="section">
     <div class="items">
@@ -71,7 +71,7 @@
   </div>
   <h1>Karma Tree</h1>
   @if (spoilers) {
-    <button type="button" class="unlock" title="Unlock all tree secrets" (click)="unlockItems(tree)">🤍</button>
+    <zoo-toggle title="Unlock all tree secrets" (changed)="unlockItems(tree, $event)" />
   }
   <div class="section">
     <div class="items">

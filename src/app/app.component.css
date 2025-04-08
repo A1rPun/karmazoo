@@ -31,18 +31,6 @@
   width: 50%;
 }
 
-.unlock {
-  background: black;
-  border: 2px solid white;
-  border-radius: 100%;
-  width: 32px;
-  height: 32px;
-
-  &:hover {
-    background: #333;
-  }
-}
-
 .show {
   background: #222;
   border: 2px solid white;
@@ -77,16 +65,28 @@ progress {
 .Panda ::ng-deep zoo-item .item {
   --background: #17eefe;
 }
+.Panda ::ng-deep zoo-toggle .toggle {
+  --background: #17eefe;
+}
 
 .Peacock ::ng-deep zoo-item .item {
+  --background: #f21068;
+}
+.Peacock ::ng-deep zoo-toggle .toggle {
   --background: #f21068;
 }
 
 .Tiger ::ng-deep zoo-item .item {
   --background: #b314eb;
 }
+.Tiger ::ng-deep zoo-toggle .toggle {
+  --background: #b314eb;
+}
 
 .Snail ::ng-deep zoo-item .item {
+  --background: #fad42e;
+}
+.Snail ::ng-deep zoo-toggle .toggle {
   --background: #fad42e;
 }
 
