@@ -74,6 +74,7 @@ export class AppComponent {
       this.getSherpa("Tiger"),
     ];
     this.loadState();
+    this.versionCheck();
   }
 
   unlockSherpa(index: number, unlock: boolean) {
@@ -134,5 +135,20 @@ export class AppComponent {
     state.items && this.items().forEach((x, i) => x.state = state.items[i]);
     state.other && this.other().forEach((x, i) => x.state = state.other[i]);
     state.tree && this.tree().forEach((x, i) => x.state = state.tree[i]);
+  }
+
+  private versionCheck(): void {
+    const version = localStorage.getItem('karmazoo.version');
+
+    // migration from v1.0.0 -> v1.0.1
+    if (!version) {
+      this.forms().forEach(x => {
+        if (x.state === 3) x.state = 5;
+        else if (x.state === 5) x.state = 9;
+        else if (x.state === 7) x.state = 15;
+      });
+      this.saveState();
+    }
+    localStorage.setItem('karmazoo.version', '1.0.1');
   }
 }
