@@ -9,6 +9,8 @@
     <progress [value]="karmaOther()" max="145761"></progress>
     <span>Spend 🤍 {{ karmaDisplay() }} of 🤍 {{ neededKarmaTotal }} total karma</span>
     <progress [value]="karma()" max="577396"></progress>
+    <span>Completed {{ missions() }} of 141 missions</span>
+    <progress [value]="missions()" max="141"></progress>
     @if (spoilers) {
       <span>Unlocked {{ secrets() }} of 23 secrets</span>
       <progress [value]="secrets()" max="23"></progress>
@@ -21,6 +23,7 @@
     @for (sherpa of sherpas; track $index) {
       <div [class]="['sherpa', sherpa.name]">
         <h2>{{ sherpa.name }}</h2>
+        <span>{{ sherpa.missions() }} / {{ sherpa.totalMissions }} missions</span>
         @if (spoilers) {
           <zoo-toggle
             title="Unlock all forms"

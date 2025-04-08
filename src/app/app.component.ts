@@ -50,6 +50,9 @@ export class AppComponent {
       + this.items().filter(x => (x.state ?? 0 > 0) && x.secret).length
       + this.tree().filter(x => (x.state ?? 0 > 0) ).length;
   });
+  missions = computed(() => this.forms().reduce((acc, cur) => {
+    return acc + this.getMissionCount(cur.state);
+  }, 0));
 
   hasAllItems = computed(() => this.items().every((x) => x.state === 1));
   hasAllOther = computed(() => this.other().every((x) => x.state === 1));
@@ -103,11 +106,24 @@ export class AppComponent {
     localStorage.setItem('karmazoo.spoilers', '1');
   }
 
-  private getSherpa(name: string): {name: string, forms: IZoo[], hasAll: Signal<boolean>} {
+  private getSherpa(name: string): {
+    name: string,
+    forms: IZoo[],
+    hasAll: Signal<boolean>,
+    missions: Signal<number>,
+    totalMissions: number
+  } {
+    const forms = this.forms().filter(x => x.star === name);
     return {
       name,
-      forms: this.forms().filter(x => x.star === name),
+      forms,
+      totalMissions: forms.length * 3,
       hasAll: computed(() => this.forms().filter(x => x.star === name).every(x => x.state === 15)),
+      missions: computed(() =>
+        this.forms()
+          .filter(x => x.star === name)
+          .reduce((acc, cur) =>
+            acc + this.getMissionCount(cur.state), 0)),
     }
   }
 
@@ -117,6 +133,14 @@ export class AppComponent {
 
   private initZoo(x: IZoo): IZoo {
     return {...x, state: 0};
+  }
+
+  private getMissionCount(state: number = 0) {
+    let missionCount = 0;
+    if (state & 2) missionCount += 1;
+    if (state & 4) missionCount += 1;
+    if (state & 8) missionCount += 1;
+    return missionCount;
   }
 
   private saveState(): void {
