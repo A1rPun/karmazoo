@@ -17,23 +17,33 @@
     }
   </label>
   @if(item()?.size && item()?.state ?? 0 > 1) {
+  <div class="missions-header">Missions</div>
   <div class="missions">
     <label class="mission">
-      Mission 1
+      1
       <input
         class="complete"
         type="checkbox"
-        [checked]="item()?.state === 3 || item()?.state === 7"
+        [checked]="item()?.state === 3 || item()?.state === 7 || item()?.state === 11 || item()?.state === 15"
         (change)="click($event, 2)"
       />
     </label>
     <label class="mission">
-      Mission 2
+      2
       <input
         class="complete"
         type="checkbox"
-        [checked]="item()?.state === 5 || item()?.state === 7"
+        [checked]="item()?.state === 5 || item()?.state === 7 || item()?.state === 13 || item()?.state === 15"
         (change)="click($event, 4)"
+      />
+    </label>
+    <label class="mission">
+      3
+      <input
+        class="complete"
+        type="checkbox"
+        [checked]="item()?.state === 9 || item()?.state === 11 || item()?.state === 13 || item()?.state === 15"
+        (change)="click($event, 8)"
       />
     </label>
   </div>

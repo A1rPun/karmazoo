@@ -10,18 +10,19 @@
   color: var(--color);
   margin: 0;
   user-select: none;
-  min-width: 212px;
+  min-width: 160px;
 
   &:has(.state:checked) {
     background: darkgoldenrod;
     border-color: darkgoldenrod;
   }
 
-  &:has(.mission:nth-child(1) .complete:checked):has(.mission:nth-child(2) .complete:checked) {
+  &:has(.mission:nth-child(1) .complete:checked):has(.mission:nth-child(2) .complete:checked):has(.mission:nth-child(3) .complete:checked) {
     background: var(--background);
     color: #000;
     border-color: var(--background);
 
+    .missions-header,
     .missions {
       display: none;
     }
@@ -68,15 +69,27 @@
     height: 32px;
   }
 
+  .missions-header {
+    display: flex;
+    justify-content: center;
+    padding: 4px 0;
+    border-top: 1px solid black;
+  }
+
   .missions {
     display: flex;
+    justify-content: space-evenly;
   }
 
   .mission {
+    display: flex;
+    justify-content: center;
     background: #222;
     border: 1px solid darkgoldenrod;
-    border-radius: 16px;
     color: #eee;
+    border-radius: 100%;
+    width: 16px;
+    height: 16px;
 
     &:has(.complete:checked) {
       background: var(--background);
