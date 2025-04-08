@@ -22,7 +22,11 @@
       <div [class]="['sherpa', sherpa.name]">
         <h2>{{ sherpa.name }}</h2>
         @if (spoilers) {
-          <zoo-toggle title="Unlock all forms" (changed)="unlockSherpa($index, $event)" />
+          <zoo-toggle
+            title="Unlock all forms"
+            (changed)="unlockSherpa($index, $event)"
+            [checked]="sherpa.hasAll()"
+          />
         }
         <div class="items">
           @for (form of sherpa.forms; track form.name) {
@@ -39,7 +43,11 @@
   </div>
   <h1>Upgrades</h1>
   @if (spoilers) {
-    <zoo-toggle title="Unlock all upgrades" (changed)="unlockItems(items, $event)" />
+    <zoo-toggle
+      title="Unlock all upgrades"
+      (changed)="unlockItems(items, $event)"
+      [checked]="hasAllItems()"
+    />
   }
   <div class="section">
     <div class="items">
@@ -55,7 +63,11 @@
   </div>
   <h1>Doors & Books</h1>
   @if (spoilers) {
-    <zoo-toggle title="Unlock all doors & books" (changed)="unlockItems(other, $event)" />
+    <zoo-toggle
+      title="Unlock all doors & books"
+      (changed)="unlockItems(other, $event)"
+      [checked]="hasAllOther()"
+    />
   }
   <div class="section">
     <div class="items">
@@ -71,7 +83,11 @@
   </div>
   <h1>Karma Tree</h1>
   @if (spoilers) {
-    <zoo-toggle title="Unlock all tree secrets" (changed)="unlockItems(tree, $event)" />
+    <zoo-toggle
+      title="Unlock all tree secrets"
+      (changed)="unlockItems(tree, $event)"
+      [checked]="hasAllTree()"
+    />
   }
   <div class="section">
     <div class="items">

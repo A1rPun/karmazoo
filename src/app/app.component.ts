@@ -1,4 +1,4 @@
-import { Component, computed, signal, WritableSignal } from '@angular/core';
+import { Component, computed, Signal, signal, WritableSignal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { ItemComponent } from "./item/item.component";
 import { IZoo } from './zoo.interface';
@@ -51,6 +51,10 @@ export class AppComponent {
       + this.tree().filter(x => (x.state ?? 0 > 0) ).length;
   });
 
+  hasAllItems = computed(() => this.items().every((x) => x.state === 1));
+  hasAllOther = computed(() => this.other().every((x) => x.state === 1));
+  hasAllTree = computed(() => this.tree().every((x) => x.state === 1));
+
   constructor() {
     this.currencies = [
       this.sumCurrencies(this.forms()),
@@ -73,7 +77,7 @@ export class AppComponent {
   }
 
   unlockSherpa(index: number, unlock: boolean) {
-    const state = unlock ? 7 : 0;
+    const state = unlock ? 15 : 0;
     const forms = this.sherpas[index].forms;
     forms.forEach(form => form.state = state);
     this.forms.update((f) => [...f]);
@@ -98,10 +102,11 @@ export class AppComponent {
     localStorage.setItem('karmazoo.spoilers', '1');
   }
 
-  private getSherpa(name: string): {name: string, forms: IZoo[]} {
+  private getSherpa(name: string): {name: string, forms: IZoo[], hasAll: Signal<boolean>} {
     return {
       name,
       forms: this.forms().filter(x => x.star === name),
+      hasAll: computed(() => this.forms().filter(x => x.star === name).every(x => x.state === 15)),
     }
   }
 
