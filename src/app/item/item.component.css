@@ -26,6 +26,10 @@
     .missions {
       display: none;
     }
+
+    .size {
+      border-color: #000;
+    }
   }
 
   input[type="checkbox"] {

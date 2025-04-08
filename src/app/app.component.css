@@ -28,7 +28,8 @@
 .progress {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  gap: 8px;
+  width: 100%;
 }
 
 .show {
@@ -105,5 +106,9 @@ progress {
 @media screen and (min-width: 1024px) {
   .section {
     flex-direction: row;
+  }
+
+  .progress {
+    width: 50%;
   }
 }
