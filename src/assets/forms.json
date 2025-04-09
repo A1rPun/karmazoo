@@ -5,6 +5,8 @@
     "price": 100000,
     "size": 9,
     "star": "Panda",
+    "mission2": "Carry 10 mates around",
+    "mission3": "Drop 15 useful tombstones",
     "text": "Locked: I can carry a teammate around on my ship.\n\nUnlocked: HOLD (button prompt) and RELEASE to carry a teammate in my ship."
   },
   {
@@ -13,6 +15,8 @@
     "price": 10000,
     "size": 4,
     "star": "Panda",
+    "mission2": "Spit on 20 mates",
+    "mission3": "Send 10 kisses",
     "text": "Locked: I spit on others to make them sticky.\n\nUnlocked: PUSH (button prompt) to spit on other to make them sticky."
   },
   {
@@ -20,6 +24,8 @@
     "price": 5000,
     "size": 4,
     "star": "Panda",
+    "mission2": "Send 20 echoes on musical notes",
+    "mission3": "Destroy 5 voice blocks",
     "text": "Locked: I bark and send an echo.\n\nUnlocked: PUSH (button prompt) to woof and echo."
   },
   {
@@ -27,6 +33,8 @@
     "price": 2000,
     "size": 9,
     "star": "Panda",
+    "mission2": "Smash 30 blocks",
+    "mission3": "Drop 15 useful tombstones on spikes",
     "text": "Locked: I charge up ahead to smash glass walls.\n\nUnlocked: HOLD (button prompt) to charge up and RELEASE to smash walls ahead."
   },
   {
@@ -34,6 +42,8 @@
     "price": 2000,
     "size": 1,
     "star": "Panda",
+    "mission2": "Help 15 mates with your needles",
+    "mission3": "Earn 100 Hearts",
     "text": "Locked: I make my surroundings sticky.\n\nUnlocked: HOLD (button prompt) to make your surroundings sticky."
   },
   {
@@ -41,6 +51,8 @@
     "price": 3000,
     "size": 1,
     "star": "Panda",
+    "mission2": "Rotate 4 wheels",
+    "mission3": "Walk carefree on 30 breakable platforms",
     "text": "Locked: I run the mouse wheels and I'm a lightweight.\n\nUnlocked: HOLD (button prompt) to run the wheels. I'm a lightweight"
   },
   {
@@ -48,6 +60,8 @@
     "price": 1000,
     "size": 1,
     "star": "Panda",
+    "mission2": "Trigger 3 voice wheels at once",
+    "mission3": "Activate 20 musical platforms",
     "text": "Locked: I sing my lungs out in all directions.\n\nUnlocked: HOLD (button prompt) to sing my lungs out in all directions."
   },
   {
@@ -55,6 +69,8 @@
     "price": 250,
     "size": 1,
     "star": "Panda",
+    "mission2": "Fly 750 meters",
+    "mission3": "Open 1 crystal-lock",
     "text": "Locked: I glide with style.\n\nUnlocked: HOLD (button prompt) to glide."
   },
   {
@@ -62,6 +78,8 @@
     "price": 250,
     "size": 1,
     "star": "Panda",
+    "mission2": "Attract 50 fruits",
+    "mission3": "Grow 4 flower blocks",
     "text": "Locked: I attract Fruit like a magnet.\n\nUnlocked: I attract Fruit like a magnet."
   },
   {
@@ -69,6 +87,8 @@
     "price": 1500,
     "size": 4,
     "star": "Panda",
+    "mission2": "Shell up 20 times against dangers",
+    "mission3": "Drop 5 useful tombstones on darts",
     "text": "Locked: I shell in to protect myself and others, and to reduce Halo loss\n\nUnlocked: HOLD (button prompt) to shell up and be safe from dangers"
   },
   {
@@ -76,6 +96,8 @@
     "price": 2500,
     "size": 4,
     "star": "Panda",
+    "mission2": "Protect mates from 5 dangers",
+    "mission3": "Earn 100 hearts",
     "text": "Locked:I can unfold to protect others from dangers.\n\nUnlocked: HOLD (button prompt) to deploy and protect your mates from dangers."
   },
   {
@@ -83,6 +105,8 @@
     "price": 2500,
     "size": 1,
     "star": "Peacock",
+    "mission2": "Carry 10 mates around",
+    "mission3": "Plug 2 light bulbs in",
     "text": "Locked: I can welcome a teammate on my bowl.\n\nUnlocked: HOLD (button prompt) and release to carry a teammate around on my bowl."
   },
   {
@@ -90,6 +114,8 @@
     "price": 250,
     "size": 1,
     "star": "Peacock",
+    "mission2": "Drop 20 useful tombstones",
+    "mission3": "Collect 2 Karma gifts",
     "text": "Locked: I am immune to anything pointy when I move\n\nUnlocked: I am immune to anything pointy when I move."
   },
   {
@@ -97,6 +123,8 @@
     "price": 3000,
     "size": 4,
     "star": "Peacock",
+    "mission2": "Smash 20 blocks",
+    "mission3": "Send 20 kisses",
     "text": "Locked: I blow to smash glass walls.\n\nUnlocked: HOLD (button prompt) to blow away. Also destroys tombstones."
   },
   {
@@ -104,6 +132,8 @@
     "price": 1000,
     "size": 1,
     "star": "Peacock",
+    "mission2": "Trigger 3 voice wheels at once",
+    "mission3": "Activate 20 musical platforms",
     "text": "Locked: I can sing in all directions at once.\n\nUnlocked: HOLD (button prompt) to bark and Sing in all directions."
   },
   {
@@ -112,6 +142,8 @@
     "price": 5000,
     "size": 9,
     "star": "Peacock",
+    "mission2": "Carry 3 items at once",
+    "mission3": "Drop 15 useful tombstones",
     "text": "Locked: I carry up to 5 items.\n\nUnlocked: I carry up to 5 items at once."
   },
   {
@@ -119,6 +151,8 @@
     "price": 3000,
     "size": 1,
     "star": "Peacock",
+    "mission2": "Send 10 kisses",
+    "mission3": "Collect 10 kisses",
     "text": "Locked: My needle points to the closest remaining Fruit.\n\nUnlocked: HOLD (button prompt) to point at the closest remaining fruit."
   },
   {
@@ -126,6 +160,8 @@
     "price": 250,
     "size": 1,
     "star": "Peacock",
+    "mission2": "Eat 30 fruits",
+    "mission3": "Open 3 key-locks",
     "text": "Locked: I jump three times in a row.\n\nUnlocked: PUSH (button prompt) to jump three times in a row."
   },
   {
@@ -133,6 +169,8 @@
     "price": 1000,
     "size": 4,
     "star": "Peacock",
+    "mission2": "Rotate 4 wheels",
+    "mission3": "Play on 10 lucky tombstones",
     "text": "Locked: My tombstone gives a singing boost. I also sing in all directions.\n\nUnlocked: HOLD (button prompt) to sing in all direction. My tombstone gives a singing boost."
   },
   {
@@ -141,6 +179,8 @@
     "price": 5000,
     "size": 4,
     "star": "Peacock",
+    "mission2": "Trigger 3 voice wheels at once",
+    "mission3": "Drop 15 useful tombstones",
     "text": "Locked: I can charge up and throw others in the air.\n\nUnlocked: HOLD (button prompt) to charge and RELEASE to propel others up in the air."
   },
   {
@@ -148,6 +188,8 @@
     "price": 1500,
     "size": 1,
     "star": "Peacock",
+    "mission2": "Propel 20 mates up",
+    "mission3": "Earn 100 hearts",
     "text": "Locked: I shine a steamy light and send light drops to reveal the world.\n\nUnlocked: HOLD (button prompt) to steam out and spit light drops in any direction."
   },
   {
@@ -155,6 +197,8 @@
     "price": 2500,
     "size": 1,
     "star": "Peacock",
+    "mission2": "Reveal 50 fruits",
+    "mission3": "Reveal 2 Karma gifts",
     "text": "Locked: I water tombstones and grow all the flowers.\n\nUnlocked: HOLD (button prompt) to water tombstones and flowers."
   },
   {
@@ -162,6 +206,8 @@
     "price": 5000,
     "size": 1,
     "star": "Peacock",
+    "mission2": "Water 20 tombstones",
+    "mission3": "Grow 6 flower blocks",
     "text": "Locked: I run the guinea pig-wheels. Yes, that's their real name. .\n\nUnlocked: HOLD (button prompt) to run the wheels."
   },
   {
@@ -169,6 +215,8 @@
     "price": 5000,
     "size": 9,
     "star": "Snail",
+    "mission2": "Smash 20 blocks",
+    "mission3": "Send 10 kisses",
     "text": "Locked: I smash the ground with my behind to destroy glass walls.\n\nUnlocked: PUSH (button prompt) in mid-air to smash the ground."
   },
   {
@@ -176,6 +224,8 @@
     "price": 10000,
     "size": 1,
     "star": "Snail",
+    "mission2": "Send 20 echoes on musical notes",
+    "mission3": "Activate 20 musical platforms",
     "text": "Locked: I quack and send an echo.\n\nUnlocked: PUSH (button prompt) to quack and echo"
   },
   {
@@ -183,6 +233,8 @@
     "price": 5000,
     "size": 9,
     "star": "Snail",
+    "mission2": "Smash 30 blocks",
+    "mission3": "Perform 30 dance moves",
     "text": "Locked: I charge up ahead and destroy glass walls.\n\nUnlocked: HOLD (button prompt) to charge up and RELEASE to smash walls ahead."
   },
   {
@@ -190,6 +242,8 @@
     "price": 7500,
     "size": 4,
     "star": "Snail",
+    "mission2": "Help 20 mates with your needles",
+    "mission3": "Destroy 3 voice blocks",
     "text": "Locked: I make my surroundings sticky.\n\n Unlocked: HOLD (button prompt) to make my surroundings sticky."
   },
   {
@@ -198,6 +252,8 @@
     "price": 25000,
     "size": 1,
     "star": "Snail",
+    "mission2": "Dash 50 times",
+    "mission3": "Send 20 kisses",
     "text": "Locked: Like all cats, I can dash.\n\nUnlocked: PUSH (button prompt) to dash ahead like there's no tomorrow."
   },
   {
@@ -205,6 +261,8 @@
     "price": 1500,
     "size": 1,
     "star": "Snail",
+    "mission2": "Reveal 100 fruits",
+    "mission3": "Reveal 2 Karma gifts",
     "text": "Locked: I blast my beam of light.\n\nUnlocked: HOLD (button prompt) to enlighten like no other."
   },
   {
@@ -212,6 +270,8 @@
     "price": 5000,
     "size": 1,
     "star": "Snail",
+    "mission2": "Blaze 10 fire-pits",
+    "mission3": "Earn 100 Hearts",
     "text": "Locked: I spice up fire-pits.\n\nUnlocked: PUSH (button prompt) to ignite fire-pits."
   },
   {
@@ -220,6 +280,8 @@
     "price": 25000,
     "size": 1,
     "star": "Snail",
+    "mission2": "Catch 100 floating light-bits",
+    "mission3": "Collect 10 kisses",
     "text": "Locked: I run like the wind.\n\nUnlocked: HOLD (button prompt) to Run like the wind."
   },
   {
@@ -227,6 +289,8 @@
     "price": 5000,
     "size": 1,
     "star": "Snail",
+    "mission2": "Help 20 mates up with your shell",
+    "mission3": "Perform 30 dance moves",
     "text": "Locked: I stick to walls and deploy my shell for others to climb on.\n\nUnlocked: HOLD (button prompt) to stick on walls or objects & create a platform"
   },
   {
@@ -234,6 +298,8 @@
     "price": 2500,
     "size": 1,
     "star": "Snail",
+    "mission2": "Carry 20 mates on your web",
+    "mission3": "Hold doors open for 20 mates",
     "text": "Locked: I pull a string from a Web for others to climb on, and I'm a lightweight!\n\nUnlocked: HOLD (button prompt) to pull down a string from a Web."
   },
   {
@@ -241,6 +307,8 @@
     "price": 5000,
     "size": 1,
     "star": "Snail",
+    "mission2": "Rotate 4 wheels",
+    "mission3": "Destroy 3 voice blocks",
     "text": "Locked: I run squirrel-wheels.\n\nUnlocked: HOLD (button prompt) to run the wheels."
   },
   {
@@ -249,13 +317,18 @@
     "price": 10000,
     "size": 9,
     "star": "Snail",
+    "mission2": "Splash mates up 20 times",
+    "mission3": "Earn 100 Hearts",
     "text": "Locked: I can blow water in the air that others can climb on.\n\nUnlocked: HOLD (button prompt) to spit water upwards that teammates can climb on"
   },
+
   {
     "name": "Bell",
     "price": 3000,
     "size": 1,
     "star": "Tiger",
+    "mission2": "Smash 20 blocks",
+    "mission3": "Send 10 kisses",
     "text": "Locked: I ring to destroy glass walls.\n\nUnlocked: HOLD (button prompt) to ding dong. Destroys walls and tombstones alike!"
   },
   {
@@ -264,6 +337,8 @@
     "price": 77777,
     "size": 1,
     "star": "Tiger",
+    "mission2": "Drop 15 useful tombstones",
+    "mission3": "Electrify 5 plugged lightbulbs",
     "text": "Locked: My tombstone is a gift machine and I enhance Bonuses.\n\nUnlocked: Stand on my tombstone to play a game."
   },
   {
@@ -272,6 +347,8 @@
     "price": 1000,
     "size": 1,
     "star": "Tiger",
+    "mission2": "Fly 500 meters",
+    "mission3": "Walk carefree on 30 breakable platforms",
     "text": "Locked: I flap my wings a little in mid-air and I'm a lightweight.\n\nUnlocked: HOLD (button prompt) to glide."
   },
   {
@@ -279,6 +356,8 @@
     "price": 10000,
     "size": 9,
     "star": "Tiger",
+    "mission2": "Help 20 mates with your needles",
+    "mission3": "Drop 15 useful tombstones",
     "text": "Locked: I make my surroundings sticky.\n\nUnlocked: HOLD (button prompt) to make your surroundings sticky."
   },
   {
@@ -286,6 +365,8 @@
     "price": 3000,
     "size": 1,
     "star": "Tiger",
+    "mission2": "Blaze 10 fire-pits",
+    "mission3": "Collect 10 kisses",
     "text": "Locked: I ignite fire-pits.\n\nUnlocked: PUSH (button prompt) to ignite a fire-pit."
   },
   {
@@ -293,6 +374,8 @@
     "price": 2500,
     "size": 1,
     "star": "Tiger",
+    "mission2": "Deploy 10 flower blocks",
+    "mission3": "Drop 10 useful tombstones on acid drops",
     "text": "Locked: I grow my plant to help others get up.\n\nUnlocked: HOLD (button prompt) to grow my flower and help others."
   },
   {
@@ -300,6 +383,8 @@
     "price": 250,
     "size": 1,
     "star": "Tiger",
+    "mission2": "Sing on 3 voice wheels while hanging",
+    "mission3": "Hold doors open for 20 mates",
     "text": "Locked: I climb up and down sticky walls and even sing while stuck.\n\nUnlocked: I walk up or down walls and can sing while hanging"
   },
   {
@@ -307,6 +392,8 @@
     "price": 5000,
     "size": 1,
     "star": "Tiger",
+    "mission2": "Reveal 50 fruits",
+    "mission3": "Reveal 2 Karma gifts",
     "text": "Locked: I shine like no other and reveal secrets.\n\nUnlocked: HOLD (button prompt) to shine like no other."
   },
   {
@@ -314,6 +401,8 @@
     "price": 250,
     "size": 1,
     "star": "Tiger",
+    "mission2": "Eat 30 fruits",
+    "mission3": "Electrify 5 plugged lightbulbs",
     "text": "Locked: I can hover still in mid-air.\n\nUnlocked: HOLD (button prompt) to hover still in mid-air."
   },
   {
@@ -321,6 +410,8 @@
     "price": 1000,
     "size": 4,
     "star": "Tiger",
+    "mission2": "Smash 20 blocks",
+    "mission3": "Earn 50 hearts",
     "text": "Locked: I smash the ground with my tail to destroy glass walls.\n\nUnlocked: PUSH (button prompt) in mid-air to smash the ground."
   },
   {
@@ -328,6 +419,8 @@
     "price": 1500,
     "size": 1,
     "star": "Tiger",
+    "mission2": "Speed up 20 mates with your tombstone",
+    "mission3": "Walk carefree on 30 breakable platforms",
     "text": "Locked: My tombstone gives a speed boost.\n\nUnlocked: My tombstones speed you up when walked on."
   },
   {
@@ -335,6 +428,8 @@
     "price": 1000,
     "size": 4,
     "star": "Tiger",
+    "mission2": "Build a 5-strong pack",
+    "mission3": "Drop 5 useful tombstones on floor traps",
     "text": "Locked: When I howl, teammates around me join my wolf pack and sing farther.\n\nUnlocked: HOLD (button prompt) to howl in and transform my nearby mates into howlers."
   }
 ]
