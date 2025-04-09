@@ -28,7 +28,7 @@
         (change)="click($event, 2)"
       />
     </label>
-    <label class="mission" [title]="item()?.mission2">
+    <label class="mission" [title]="'+ ' + item()?.mission2">
       2
       <input
         class="complete"
@@ -37,7 +37,7 @@
         (change)="click($event, 4)"
       />
     </label>
-    <label class="mission" [title]="item()?.mission3">
+    <label class="mission" [title]="'+ ' + item()?.mission3">
       3
       <input
         class="complete"
