@@ -8,6 +8,7 @@
 .section {
   display: flex;
   flex-direction: column;
+  gap: 24px;
 }
 
 .sherpa {
@@ -106,6 +107,7 @@ progress {
 @media screen and (min-width: 1024px) {
   .section {
     flex-direction: row;
+    gap: 0;
   }
 
   .progress {
