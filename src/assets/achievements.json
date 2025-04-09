@@ -1,0 +1,90 @@
+[
+  { "name": "First Time", "score": 15, "text": "Feed your first Karma Tree." },
+  {
+    "secret": true,
+    "name": "Hungry",
+    "score": 15,
+    "text": "Finish a Loop level with every single fruit eaten by you or your teammates."
+  },
+  {
+    "name": "Whale Pile",
+    "score": 100,
+    "text": "Jump on a whale's water platform while being a whale yourself"
+  },
+  {
+    "name": "Collector",
+    "score": 30,
+    "text": "End a Zoo Loop with 3 Karma Gifts collected by you or your team."
+  },
+  {
+    "name": "Savior",
+    "score": 15,
+    "text": "Save a teammate's Halo from popping at the very last second."
+  },
+  {
+    "secret": true,
+    "name": "Kisser's Delight",
+    "score": 15,
+    "text": "Send & receive a Karma Kiss to and from the same other player."
+  },
+  {
+    "name": "Explorer",
+    "score": 30,
+    "text": "Find a secret statue in your Sanctuary."
+  },
+  {
+    "name": "Danger Dancer",
+    "score": 100,
+    "text": "Complete a dance in a naughty eye's reach."
+  },
+  {
+    "name": "Indecisive",
+    "score": 15,
+    "text": "Change your mind more than 5 times during the bonus vote."
+  },
+  {
+    "secret": true,
+    "name": "Bookworm",
+    "score": 100,
+    "text": "Possess and read every tip in the Sanctuary's Library."
+  },
+  {
+    "name": "Dreamer",
+    "score": 15,
+    "text": "Visit the telescope for the first time."
+  },
+  {
+    "name": "The Pasta",
+    "score": 100,
+    "text": "Reach and feed the Karma Tree with the game's language being 'Pasta'."
+  },
+  { "name": "Star Spotter", "score": 15, "text": "Reveal 10 Stars." },
+  { "name": "Astronomer", "score": 15, "text": "Reveal 20 Stars." },
+  { "name": "Stargazer", "score": 30, "text": "Have 10 Stars shining." },
+  { "name": "Super Star", "score": 30, "text": "Have 20 Stars shining." },
+  { "name": "Cosmonaut", "score": 100, "text": "Enlighten 20 planets." },
+  { "name": "Astronaut", "score": 100, "text": "Enlighten 40 planets." },
+  {
+    "secret": true,
+    "name": "Eye in the sky",
+    "score": 15,
+    "text": "Be the one to trigger the explosion of a naughty eye."
+  },
+  {
+    "secret": true,
+    "name": "Looter",
+    "score": 30,
+    "text": "Complete a Treasure Room level with all the fruit collected."
+  },
+  {
+    "secret": true,
+    "name": "Dusty",
+    "score": 15,
+    "text": "Reach an exit portal while under the sandstorm."
+  },
+  {
+    "name": "Be Water my friend",
+    "score": 100,
+    "text": "Water a teammate's active Flowerpot while playing as the Watering Can."
+  }
+]

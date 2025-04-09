@@ -9,4 +9,5 @@ export interface IZoo {
   mission2?: string
   mission3?: string
   unlockedText?: string
+  score?: number
 }
