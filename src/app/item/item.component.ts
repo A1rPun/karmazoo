@@ -1,4 +1,4 @@
-import { Component, input, output } from '@angular/core';
+import { Component, computed, input, output } from '@angular/core';
 import { IZoo } from '../zoo.interface';
 
 @Component({
@@ -17,7 +17,11 @@ export class ItemComponent {
     if (state === 1 && !checked) {
       this.changed.emit(0);
     } else {
-      const result = checked ? old + state : old - state;
+      let result = checked ? old + state : old - state;
+      if (~result & 2) {
+        if (state === 4) result += 2;
+        if (state === 8) result += 2;
+      }
       this.changed.emit(result);
     }
   }
