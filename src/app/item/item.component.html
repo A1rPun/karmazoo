@@ -1,5 +1,5 @@
 <div class="item">
-  <label [title]="this.item()?.text ?? ''">
+  <label [title]="(item()?.state ?? 0 > 0 ? item()?.unlockedText ?? item()?.text : item()?.text) ?? item()?.name">
     <input
       class="state"
       type="checkbox"
