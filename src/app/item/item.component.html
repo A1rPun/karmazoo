@@ -1,5 +1,5 @@
 <div class="item">
-  <label>
+  <label [title]="this.item()?.text ?? ''">
     <input
       class="state"
       type="checkbox"
@@ -19,7 +19,7 @@
   @if(item()?.size && item()?.state ?? 0 > 1) {
   <div class="missions-header">Missions</div>
   <div class="missions">
-    <label class="mission">
+    <label class="mission" title="Feed the Karma Tree">
       1
       <input
         class="complete"
@@ -28,7 +28,7 @@
         (change)="click($event, 2)"
       />
     </label>
-    <label class="mission">
+    <label class="mission" [title]="item()?.mission2">
       2
       <input
         class="complete"
@@ -37,7 +37,7 @@
         (change)="click($event, 4)"
       />
     </label>
-    <label class="mission">
+    <label class="mission" [title]="item()?.mission3">
       3
       <input
         class="complete"
