@@ -10,7 +10,7 @@
   user-select: none;
 
   &:hover {
-    background: #333;
+    opacity: 0.8;
   }
 
   &:has(input:checked) {
@@ -22,6 +22,7 @@
     align-items: center;
     justify-content: center;
     flex: 1;
+    cursor: pointer;
 
     input {
       display: none;
