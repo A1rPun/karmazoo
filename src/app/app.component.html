@@ -104,6 +104,26 @@
       }
     </div>
   </div>
+  <h1>Achievements</h1>
+  @if (spoilers) {
+    <zoo-toggle
+      title="Unlock all achievements"
+      (changed)="unlockItems(trophies, $event)"
+      [checked]="hasAllTrophies()"
+    />
+  }
+  <div class="section">
+    <div class="items">
+      @for (item of trophies(); track item.name) {
+        @if (!item.secret || spoilers) {
+          <zoo-item
+            [item]="item"
+            (changed)="unlock($event, item, trophies)"
+          />
+        }
+      }
+    </div>
+  </div>
 </form>
 
 <router-outlet />

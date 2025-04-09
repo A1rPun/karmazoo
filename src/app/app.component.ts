@@ -1,4 +1,4 @@
-import { Component, computed, Signal, signal, WritableSignal } from '@angular/core';
+import { Component, computed, effect, Signal, signal, WritableSignal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { ItemComponent } from "./item/item.component";
 import { IZoo } from './zoo.interface';
@@ -7,6 +7,7 @@ import forms from './../assets/forms.json';
 import items from './../assets/items.json';
 import other from './../assets/other.json';
 import tree from './../assets/tree.json';
+import trophies from './../assets/achievements.json';
 import { ToggleComponent } from "./toggle/toggle.component";
 
 @Component({
@@ -20,6 +21,7 @@ export class AppComponent {
   items: WritableSignal<IZoo[]> = signal(items.map(this.initZoo));
   other: WritableSignal<IZoo[]> = signal(other.map(this.initZoo));
   tree: WritableSignal<IZoo[]> = signal(tree.map(this.initZoo));
+  trophies: WritableSignal<IZoo[]> = signal(trophies.map(this.initZoo));
   sherpas;
   currencies;
   spoilers = !!localStorage.getItem('karmazoo.spoilers');
@@ -57,6 +59,7 @@ export class AppComponent {
   hasAllItems = computed(() => this.items().every((x) => x.state === 1));
   hasAllOther = computed(() => this.other().every((x) => x.state === 1));
   hasAllTree = computed(() => this.tree().every((x) => x.state === 1));
+  hasAllTrophies = computed(() => this.trophies().every((x) => x.state === 1));
 
   constructor() {
     this.currencies = [
@@ -69,6 +72,30 @@ export class AppComponent {
     this.neededKarmaItems = this.currencies[1].toLocaleString();
     this.neededKarmaOther = this.currencies[2].toLocaleString();
     this.neededKarmaTotal = this.currencies.reduce((a, b) => a + b).toLocaleString();
+
+    effect(()=> {
+      this.trophies.update(t => {
+        // First Time
+        t[0].state = this.missions() > 0 ? 1 : 0;
+        // Find a secret statue in your Sanctuary
+        t[6].state = this.forms().some(x => x.secret && (x.state ?? 0 > 0)) ? 1 : t[6].state;
+        // Bookworm
+        t[9].state = this.other()[6].state === 1 && this.other()[7].state === 1 ? 1 : 0;
+        // Reveal 10 Stars
+        t[12].state = this.forms().filter(x => x.state ?? 0 > 0).length >= 10 ? 1 : 0;
+        // Reveal 20 Stars
+        t[13].state = this.forms().filter(x => x.state ?? 0 > 0).length >= 20 ? 1 : 0;
+        // Have 10 Stars shining
+        t[14].state = this.forms().filter(x => x.state === 15).length >= 10 ? 1 : 0;
+        // Have 20 Stars shining
+        t[15].state = this.forms().filter(x => x.state === 15).length >= 20 ? 1 : 0;
+        // Enlighten 20 planets
+        t[16].state = this.missions() >= 20 ? 1 : 0;
+        // Enlighten 40 planets
+        t[17].state = this.missions() >= 40 ? 1 : 0;
+        return [...t];
+      });
+    });
 
     this.sherpas = [
       this.getSherpa("Panda"),
@@ -149,6 +176,7 @@ export class AppComponent {
       items: this.items().map(x => x.state ?? 0),
       other: this.other().map(x => x.state ?? 0),
       tree: this.tree().map(x => x.state ?? 0),
+      trophies: this.trophies().map(x => x.state ?? 0),
     };
     localStorage.setItem('karmazoo.save', JSON.stringify(state));
   }
@@ -159,6 +187,7 @@ export class AppComponent {
     state.items && this.items().forEach((x, i) => x.state = state.items[i]);
     state.other && this.other().forEach((x, i) => x.state = state.other[i]);
     state.tree && this.tree().forEach((x, i) => x.state = state.tree[i]);
+    state.trophies && this.trophies().forEach((x, i) => x.state = state.trophies[i]);
   }
 
   private versionCheck(): void {
