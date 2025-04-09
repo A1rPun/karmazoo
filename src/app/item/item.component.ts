@@ -18,7 +18,7 @@ export class ItemComponent {
       this.changed.emit(0);
     } else {
       let result = checked ? old + state : old - state;
-      if (~result & 2) {
+      if (checked && ~result & 2) {
         if (state === 4) result += 2;
         if (state === 8) result += 2;
       }
