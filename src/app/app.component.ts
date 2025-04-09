@@ -47,6 +47,7 @@ export class AppComponent {
   karmaItemsDisplay = computed(() => this.karmaItems().toLocaleString());
   karmaOtherDisplay = computed(() => this.karmaOther().toLocaleString());
   karmaDisplay = computed(() => this.karma().toLocaleString());
+  karmaGiftDisplay = computed(() => this.tree().filter(x => x.state ?? 0 > 0).length * 50 || 10);
   secrets = computed(() => {
     return this.forms().filter(x => (x.state ?? 0 > 0) && x.secret).length
       + this.items().filter(x => (x.state ?? 0 > 0) && x.secret).length
